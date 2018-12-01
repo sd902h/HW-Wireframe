@@ -1,0 +1,57 @@
+.myBody {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: '#777';
+    background: '#777';
+    width: '960px';
+    font-size: '18px';
+}
+
+/* Header, Nav, Section, Aside, and Footer */
+
+.myheader {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.mynav {
+    margin-bottom: 18px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.commonBackground {
+    background: '#ebebeb';
+}
+
+.centerText {
+    text-align: center;
+}
+
+.myArticle {
+    color: '#ebebeb';
+    background: '#777';
+}
+
+.mySection {
+    width: 495px;
+    float: left;
+    padding: 10px;
+}
+
+.myaside {
+    float: right;
+}
+
+.myfooter {
+    position : absolute;
+    bottom : 0;
+}
+
+/* h1 and p */
+.myText {
+    color: '#777';
+    background: '#ebebeb';
+}
+
+.inlineBlock {
+    display:inline-block;
+}

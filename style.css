@@ -1,9 +1,10 @@
 .myBody {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: '#777';
-    background: '#777';
-    width: '960px';
-    font-size: '18px';
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+    margin-left: 200px;
 }
 
 /* Header, Nav, Section, Aside, and Footer */
@@ -11,6 +12,8 @@
 .myheader {
     padding-top: 25px;
     padding-bottom: 25px;
+    text-align: center;
+
 }
 
 .mynav {
@@ -19,7 +22,7 @@
     padding-bottom: 25px;
 }
 .commonBackground {
-    background: '#ebebeb';
+    background: #ebebeb;
 }
 
 .centerText {
@@ -27,31 +30,44 @@
 }
 
 .myArticle {
-    color: '#ebebeb';
-    background: '#777';
+    color: #ebebeb;
+    background: #777;
+    text-align: center;
+    overflow: auto;
 }
 
 .mySection {
-    width: 495px;
     float: left;
     padding: 10px;
-}
-
-.myaside {
-    float: right;
+    width: 50%;
 }
 
 .myfooter {
-    position : absolute;
-    bottom : 0;
+    width: 960px;
+    height: 75px;
+    position : relative;
 }
-
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
 /* h1 and p */
 .myText {
-    color: '#777';
-    background: '#ebebeb';
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #777;
+    background: #ebebeb;
 }
-
+.pg {
+    height: 75.813px;
+}
 .inlineBlock {
     display:inline-block;
+}
+.aside {
+    margin-left: 520px;
+    padding: 145px;
+    height: 68.8px;
 }
